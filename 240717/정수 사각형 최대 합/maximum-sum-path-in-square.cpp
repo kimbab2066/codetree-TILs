@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 #define MX 105
-int a[MX][MX], d[MX][MX];
+long long a[MX][MX], d[MX][MX];
 
 int main() {
     int n;
