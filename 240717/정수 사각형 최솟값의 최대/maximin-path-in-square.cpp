@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-#define MX 105
+#define MX 1005
 int a[MX][MX], d[MX][MX];
 
 
