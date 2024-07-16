@@ -12,8 +12,6 @@ int main() {
     d[1][1] = a[1][1];
     for(int i = 2; i <= n; i++){
         d[i][1] = max(d[i-1][1], a[i][1]);
-    }
-    for(int i = 2; i <= n; i++){
         d[1][i] = max(d[1][i-1], a[1][i]);
     }
 
